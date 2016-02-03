@@ -14,5 +14,8 @@
   "license": "The Unlicense",
   "bugs": {
     "url": "https://github.com/jonmash/r-better-c/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
   }
 }
