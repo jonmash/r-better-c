@@ -16,6 +16,8 @@
     "url": "https://github.com/jonmash/r-better-c/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.11.1",
+    "grunt-bookmarklet-wrapper": "~1.0.0"
   }
 }

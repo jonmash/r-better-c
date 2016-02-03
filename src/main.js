@@ -1,6 +1,4 @@
-javascript:
-(function() {
-  var newcss=" .flexCard{padding: 0;}"+
+var newcss=".flexCard{padding: 0;}"+
     " #accProductsBanner{padding: 0;}"+
     " .rewardsBanner{display: none;}"+
     " .accProductDetail .tableBody tr td,"+
@@ -11,13 +9,13 @@ javascript:
     " .table>tfoot>tr>th,"+
     " .table>thead>tr>td,"+
     " .table>thead>tr>th { padding: 0; }";
-  if("\v"=="v") { //IE Check
+
+if("\v"=="v") { //IE Check
     document.createStyleSheet().cssText=newcss
-  } else {
+} else {
     var tag=document.createElement("style");
     tag.type="text/css";
     document.getElementsByTagName("head")[0].appendChild(tag);
     tag[(typeof document.body.style.WebkitAppearance=="string") ? "innerText" : "innerHTML"] = newcss
-  }
-})();
+}
 
