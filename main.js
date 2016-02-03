@@ -11,7 +11,7 @@ javascript:
     " .table>tfoot>tr>th,"+
     " .table>thead>tr>td,"+
     " .table>thead>tr>th { padding: 0; }";
-  if("\v"=="v") {
+  if("\v"=="v") { //IE Check
     document.createStyleSheet().cssText=newcss
   } else {
     var tag=document.createElement("style");
