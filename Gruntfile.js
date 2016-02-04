@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         bookmarklet_wrapper: {
             options: {
                 // Task-specific options go here.
-                banner: '\n/*! <%= pkg.name %> by <%= pkg.author %> */'
+                banner: '/*! <%= pkg.name %> by <%= pkg.author %> */'
             },
             main_target: {
                 // Target-specific file lists and/or options go here.
