@@ -11,7 +11,7 @@
     "url": "git://github.com/jonmash/r-better-c.git"
   },
   "author": "Jonathan Mash",
-  "license": "The Unlicense",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jonmash/r-better-c/issues"
   },
