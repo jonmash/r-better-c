@@ -34,5 +34,11 @@ if("\v"=="v") { //IE Check
     tag.type="text/css";
     document.getElementsByTagName("head")[0].appendChild(tag);
     tag[(typeof document.body.style.WebkitAppearance=="string") ? "innerText" : "innerHTML"] = newcss
+		
+    var sideBar = document.getElementById("sideBar");
+    sideBar.className += " col-xs-pull-9";
+		
+    var mainBody = document.getElementById("mainBody");
+    mainBody.className += " col-xs-push-3";
 }
 
